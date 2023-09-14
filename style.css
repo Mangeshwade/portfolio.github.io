@@ -1,0 +1,187 @@
+.mtop{
+    margin-top: 15% !important;
+}
+body{
+  cursor: pointer;
+
+
+}
+/* p,h2,h3,h4,h5,h6{
+   color: #695AA6;
+} */
+.cursor{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #c6c6c6;
+  border-radius: 50%;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  transform: translate(-50%,-50%);
+  /* transition: .1s; */
+}
+.cursor2{
+  position: fixed;
+  width: 8px;
+  height: 8px;
+  background-color: #c6c6c6;
+  border-radius: 50%;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  transform: translate(-50%,-50%);
+  background-color: green;
+  /* transition: .10s; */
+}
+
+/* body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.container .box{
+    width: 580px;
+    height: 400px;
+    background: #000;
+    background-position: top;
+    transition: ease-in-out 8s;
+}
+.container .box.box1{
+    background: url(screencapture-younique-hair.png);
+    background-size: cover;
+}
+.container .box:hover
+{
+    background-position: bottom;
+} */
+
+section{
+    /* background-color: red; */
+    /* width: 100vw;
+    height: 100vh !important;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)), url(nasa.jpg);
+    background-position: center;
+    background-size: cover; */
+    /* justify-content: center; */
+    /* align-content: center;
+    align-items: center;
+    margin: auto; */
+}
+.bg{
+    width: 100vw;
+    height: 100vh !important;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)), url(nasa.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#particles-js{
+    width: 99%;
+    height: 99%;
+    position: absolute;
+}
+
+/* timeline css */
+ul.timeline-3 {
+    list-style-type: none;
+    position: relative;
+  }
+  ul.timeline-3:before {
+    content: " ";
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+  }
+  ul.timeline-3 > li {
+    margin: 20px 0;
+    padding-left: 20px;
+  }
+  ul.timeline-3 > li:before {
+    content: " ";
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #22c0e8;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+  }
+  @font-face {
+    font-family: custom_font;
+    src: url(font/Manus.ttf);
+  }
+  @font-face {
+    font-family: Baloo_paaji;
+    src: url(font/BalooPaaji2-SemiBold.ttf);
+  }
+
+  .fonty{
+    font-family: custom_font;
+  }
+  .bg2{
+    background-image: url(bgimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+  }
+  h1{
+    color: #695AA6 !important;
+    font-family: Baloo_paaji;
+  }
+  .btnhover{
+    background-color: #000 !important;
+  }
+  .btnhover:hover{
+    background-color: #695AA6 !important;
+  }
+  .visitbtn{
+    position:relative;
+    z-index: 999;
+    /* color: white;   */
+    width: 200px;
+    height: 50px;
+  }
+
+  /* button */
+  .button {
+    /* width: 170px !important; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  .button-1 {
+    background-color: transparent;
+    border: 3px solid #00d7c3;
+    border-radius: 20px;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    color: #00d7c3;
+  }
+  .button-1:hover {
+    box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+    border: 3px solid #00d7c3;
+  }
+  
