@@ -121,17 +121,18 @@ ul.timeline-3 {
     height: 20px;
     z-index: 400;
   }
-  @font-face {
+  /* @font-face {
     font-family: custom_font;
     src: url(Manus.ttf);
   }
   @font-face {
     font-family: Baloo_paaji;
     src: url(BalooPaaji2-SemiBold.ttf);
-  }
+  } */
 
   .fonty{
-    font-family: custom_font;
+    /* font-family: custom_font; */
+    font-family: 'Pacifico';
   }
   .bg2{
     background-image: url(bgimage.jpg);
