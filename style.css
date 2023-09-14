@@ -123,11 +123,11 @@ ul.timeline-3 {
   }
   @font-face {
     font-family: custom_font;
-    src: url(font/Manus.ttf);
+    src: url(Manus.ttf);
   }
   @font-face {
     font-family: Baloo_paaji;
-    src: url(font/BalooPaaji2-SemiBold.ttf);
+    src: url(BalooPaaji2-SemiBold.ttf);
   }
 
   .fonty{
