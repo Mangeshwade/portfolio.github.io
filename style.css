@@ -1,6 +1,12 @@
 .mtop{
     margin-top: 15% !important;
 }
+@media (max-width: 768px) {
+  .mtop{
+      margin-top: 33% !important;
+  }
+  
+}
 body{
   cursor: pointer;
 
@@ -141,8 +147,8 @@ ul.timeline-3 {
     background-position: top;
   }
   h1{
-    color: #695AA6 !important;
-    font-family: Baloo_paaji;
+    color: #000 !important;
+    /* font-family: Baloo_paaji; */
   }
   .btnhover{
     background-color: #000 !important;
