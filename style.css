@@ -48,28 +48,48 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-}
-.container{
+} */
+/* .container{
     width: 1200px;
     display: flex;
     justify-content: space-between;
 
-}
-.container .box{
+} */
+ .box{
     width: 580px;
     height: 400px;
     background: #000;
     background-position: top;
     transition: ease-in-out 8s;
 }
-.container .box.box1{
+.box.box1{
     background: url(screencapture-younique-hair.png);
     background-size: cover;
 }
-.container .box:hover
+.box.box2{
+    background: url(screencapture-aarshgift-2023-09-15-12_42_55.png);
+    background-size: cover;
+}
+.box.box3{
+  background: url(screencapture-shreembrzeeuniverse-2023-09-15-12_46_43.png);
+  background-size: cover;
+}
+.box.box4{
+  background: url(screencapture-davincishare-2023-09-15-12_51_41.png);
+  background-size: cover;
+}
+.box.box5{
+  background: url(screencapture-greenenergyfarming-2023-09-15-12_36_37.png);
+  background-size: cover;
+}
+.box.box6{
+  background: url(screencapture-leofoils-2023-09-15-12_42_05.png);
+  background-size: cover;
+}
+.box:hover
 {
     background-position: bottom;
-} */
+}
 
 section{
     /* background-color: red; */
