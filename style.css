@@ -86,6 +86,10 @@ body{
   background: url(screencapture-leofoils-2023-09-15-12_42_05.png);
   background-size: cover;
 }
+.box.box7{
+  background: url(screencapture-skyban-in-sevenvowsindia-2023-09-16-10_50_45.png);
+  background-size: cover;
+}
 .box:hover
 {
     background-position: bottom;
