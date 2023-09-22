@@ -90,6 +90,10 @@ body{
   background: url(screencapture-skyban-in-sevenvowsindia-2023-09-16-10_50_45.png);
   background-size: cover;
 }
+.box.box8{
+  background: url(screencapture-file-C-Users-HELLO-Desktop-stuffer-index-html-2023-09-22-11_47_10.png);
+  background-size: cover;
+}
 .box:hover
 {
     background-position: bottom;
@@ -229,7 +233,7 @@ ul.timeline-3 {
     /* background-color: #03cc65; */
     position: fixed;
     bottom: 20px;
-    right: 10px;
+    right: 30px;
     height: 60px;
     width: 60px;
     display: none;
